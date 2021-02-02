@@ -1,5 +1,5 @@
 export const callFechApi = async (categoria) => {
-  const token = "TqIdkhjVAUkZtobw2VIIgQFra0j9mr5L";
+  const token = "xa6KmdtA90b1jaNKgId4pydhow3ahjTo";
   const url = `http://api.giphy.com/v1/gifs/search?q=${categoria}&limit=20&api_key=${token}`;
   const response = await fetch(url);
   if (response.ok) {
