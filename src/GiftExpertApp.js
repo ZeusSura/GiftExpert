@@ -1,24 +1,20 @@
 import React, { useState } from "react";
 import CategoryAdd from "./components/CategoryAdd";
-
+import GridGift from "./components/GirdGift";
+import shortid from 'shortid'
 const GiftExpertApp = () => {
-  const [categorias, setCategorias] = useState([
-    "one punch",
-    "samurai x",
-    "Dragon Ball",
-  ]);
-
+  const [categorias, setCategorias] = useState([]);
 
   return (
     <>
       <h2>GiftExpertApp</h2>
-      <CategoryAdd/>
+      <CategoryAdd setCategorias={setCategorias} />
       <hr />
-      <ol>
-        {categorias.map((categoria) => (
-          <li key={categoria}>{categoria}</li>
-        ))}
-      </ol>
+      {categorias.map((categoria) => (
+        <GridGift  
+        key={shortid.generate()}
+        categoria={categoria} />
+      ))}
     </>
   );
 };
