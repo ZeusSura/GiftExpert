@@ -1,5 +1,5 @@
 import React from "react";
-
+import PropTypes from 'prop-types'
 const GridGiftItem = ({ imagen }) => {
   const { url, title } = imagen;
   return (
@@ -11,5 +11,7 @@ const GridGiftItem = ({ imagen }) => {
     </div>
   );
 };
-
+GridGiftItem.prototype={
+   imagen:PropTypes.object.isRequired
+}
 export default GridGiftItem;
