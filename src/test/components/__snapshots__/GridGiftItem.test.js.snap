@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas item grid Prueba de snapshot esperado 1`] = `
+<div
+  className="animate__animated animate__rotateIn animate__slower"
+>
+  <div
+    className="card"
+  >
+    <img
+      alt="windows microsoft GIF"
+      src="https://media3.giphy.com/media/CXijLuAwu955u/giphy…6kzxdnqldrd3k3psn84dxmkxjp3d4mqi8ky&rid=giphy.gif"
+    />
+    <p>
+      windows microsoft GIF
+    </p>
+  </div>
+</div>
+`;

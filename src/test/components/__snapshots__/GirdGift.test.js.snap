@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Evaluacion del componente gridGift componente 1`] = `
+<Fragment>
+  <p>
+    cargando...
+  </p>
+  <h3>
+    Dragon Ball
+  </h3>
+  <div
+    className="contenedor-imagen"
+  />
+</Fragment>
+`;

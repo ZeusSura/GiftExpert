@@ -11,7 +11,7 @@ const GridGiftItem = ({ imagen }) => {
     </div>
   );
 };
-GridGiftItem.prototype={
+GridGiftItem.propTypes={
    imagen:PropTypes.object.isRequired
 }
 export default GridGiftItem;

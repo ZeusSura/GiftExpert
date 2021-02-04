@@ -26,8 +26,8 @@ const GridGift = ({ categoria }) => {
   );
 };
 
-GridGift.prototype = {
-  categoria: PropTypes.string.isRequired,
+GridGift.propTypes = {
+  categoria: PropTypes.string.isRequired
 };
 
 export default GridGift;
