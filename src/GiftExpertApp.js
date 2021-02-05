@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import CategoryAdd from "./components/CategoryAdd";
 import GridGift from "./components/GirdGift";
 import shortid from "shortid";
-const GiftExpertApp = () => {
-  const [categorias, setCategorias] = useState([]);
+const GiftExpertApp = ({defaultCategories =[]}) => {
+  const [categorias, setCategorias] = useState(defaultCategories);
 
   return (
     <>

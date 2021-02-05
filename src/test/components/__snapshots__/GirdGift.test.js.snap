@@ -10,6 +10,47 @@ exports[`Evaluacion del componente gridGift componente 1`] = `
   </h3>
   <div
     className="contenedor-imagen"
-  />
+  >
+    <GridGiftItem
+      imagen={
+        Object {
+          "id": 1,
+          "title": "Imagen 1",
+          "url": "/123/diasdi.jpg",
+        }
+      }
+      key="1"
+    />
+    <GridGiftItem
+      imagen={
+        Object {
+          "id": 2,
+          "title": "Imagen 1",
+          "url": "/123/diasdi.jpg",
+        }
+      }
+      key="2"
+    />
+    <GridGiftItem
+      imagen={
+        Object {
+          "id": 3,
+          "title": "Imagen 1",
+          "url": "/123/diasdi.jpg",
+        }
+      }
+      key="3"
+    />
+    <GridGiftItem
+      imagen={
+        Object {
+          "id": 4,
+          "title": "Imagen 1",
+          "url": "/123/diasdi.jpg",
+        }
+      }
+      key="4"
+    />
+  </div>
 </Fragment>
 `;
